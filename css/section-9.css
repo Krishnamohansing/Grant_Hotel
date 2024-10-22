@@ -1,0 +1,59 @@
+.section-9{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 239, 246);
+    text-align: center;
+
+}
+.section-9 .first .ha{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;           
+}
+.section-9 .first p{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.section-9 .second{
+    padding: 40px 250px;
+}
+.section-9 .second .cards1{
+    display: flex;
+    gap: 50px;
+}
+
+.section-9 .second .cards1 .content{
+    text-align: left;
+
+}
+.section-9 .second .cards1 .content h4{
+    color: orange;
+}
+.section-9 .second .cards1 .content p{
+    font-size: 1.3rem;
+}
+.section-9 .second .cards1 .content button{
+    border: none;
+    background-color: slateblue;
+    color: white;
+    padding: 5px 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+.section-9 .dot {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+.section-9 .dot .d{
+    height: 15px;
+    width: 30px;
+    border-radius: 20%;
+    background-color: rgba(242, 211, 211, 0.933);
+   
+}
+.section-9 .dot  #two{
+    background-color: black;
+}

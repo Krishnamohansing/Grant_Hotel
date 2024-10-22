@@ -1,0 +1,64 @@
+.section-8 {
+    position: relative;
+    background: url('../images/hosur.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-8::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+
+.section-8 * {
+    position: relative;
+    z-index: 2; 
+}
+
+
+.section-8 .first .h{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+span{
+    color: orange;
+}
+.section-8 .first .para{
+   font-size: 1.2rem;
+   color: white;
+}
+
+.section-8 .second{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    justify-content: center;
+
+}
+
+.section-8 .second .grid-containt{
+   
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.section-8 .second .grid-containt i{
+    font-size: 40px;
+}
+
+.section-8 .second .grid-containt p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: orange;
+}

@@ -1,0 +1,66 @@
+.section-4{
+    padding: 60px;
+    background-color: rgb(244, 244, 248);
+}
+
+.section-4 .heding{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.section-4 .heding span{
+    color: orange;
+}
+
+.section-4 .data{
+    display: flex;
+    gap: 20px;
+}
+
+.section-4 .data .para{
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.section-4 .data .para .main{
+    font-family: bold;
+    font-size: 1.3rem;
+}
+
+
+.section-4 .data .para .main span{
+    color: orange;
+}
+
+.section-4 .data .img1 img{
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    border: 2px white solid;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    
+    border-radius: 10px;
+    
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}

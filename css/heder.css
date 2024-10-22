@@ -1,0 +1,78 @@
+
+.heder {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.section-1 {
+    position: sticky;
+    top: 35px;
+    z-index: 999;
+    background-color: white;
+}
+.heder .navbar {
+    background: linear-gradient(to right, #000, #C9A700);
+    color: white;
+    height: 43px;
+
+    
+}
+.heder .navbar a {
+    color: white;
+    font-weight: bold;
+}
+
+.heder .social-icons i {
+    margin: 0 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.heder .me-3{
+    text-decoration: none;
+    
+}
+
+.heder .me-3:hover{
+    color: #C9A700;
+    border: 2px #C9A700 solid;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+.contact-number {
+    background-color: #452CC8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+}
+.contact-number i {
+    margin-right: 5px;
+}
+
+
+
+.section-1 .navbar{
+    margin-top: -10px;
+    position: sticky;
+    top: 0px;
+
+    
+
+}
+
+.section-1  .me-3{
+    color: black;
+    
+    text-decoration: none;
+}
+
+.section-1 .me-3:hover{
+    color: #C9A700;
+    border: 2px #C9A700 solid;
+    padding: 3px;
+    border-radius: 5px;
+}

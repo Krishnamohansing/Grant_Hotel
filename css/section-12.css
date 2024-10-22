@@ -1,0 +1,87 @@
+.section-12 {
+    background-color: white;
+    padding: 100px 100px;
+
+}
+
+.section-12 .content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-12 .content1 .dot {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.section-12 .dot .d {
+    height: 15px;
+    width: 30px;
+    border-radius: 20%;
+    background-color: rgba(177, 164, 164, 0.933);
+
+}
+
+.section-12 .content1 .dot #two {
+    background-color: black;
+}
+
+.section-12 .content1 .cards4 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    padding: 60px 0;
+
+   
+}
+.section-12 .content1 .cards4 .ca{
+    
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(40, 40, 42);
+    color: white;
+    border-radius: 50px 0;
+    font-size: 1.3rem;
+}
+.section-12 .content1 .cards4 .ca img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: -20%;
+    border: 0.01px black solid;
+}
+.section-12 .content1 .hed{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+h5{
+    margin: 20px;
+    color: orange;
+}
+
+.section-12 .content1 .cards4 .ca .feed{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 18px;
+    left: 88%;
+    box-shadow: 0 0 10px black;
+}
+.section-12 .content1 .cards4 .ca .feed span{
+    color: black;
+    font-weight: bold;
+}
+.section-12 .content1 .cards4 .ca .feed i{
+    color: orange;
+}

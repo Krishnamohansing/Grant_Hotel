@@ -1,0 +1,53 @@
+.section-13 {
+
+    background-color: #171137;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    color: white;
+
+}
+
+.section-13 .im {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.section-13 .gri-cont {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: 1.3rem;
+
+
+}
+
+.section-13 .gri-cont .company ul {
+    margin: 15px 0;
+}
+
+.section-13 .gri-cont h5 {
+    color: white;
+}
+
+.section-13 .gri-cont .contac .LO,
+.con,
+.em {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.section-13 .gri-cont .contac .icon i {
+    padding: 10px;
+
+}
+
+.section-13 .last {
+    margin: 30xp 0;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}

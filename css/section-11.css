@@ -1,0 +1,29 @@
+.section-11 {
+    padding: 80px 200px;
+    background-image: radial-gradient(rgb(102, 102, 248), black);
+}
+
+.section-11 h4 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+.section-11 .marq2,
+.marq1 {
+    height: 70px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.section-11 .marq1 img {
+    height: 60px;
+    width: 150px;
+
+}
